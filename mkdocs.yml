@@ -1,0 +1,6 @@
+site_name: NNairIITK Documentation
+theme: 'material'
+pages:
+    - Home: index.md
+    - Vreco_CPMD:
+      - 'Introduction': 'Vreco_CPMD/Introduction.md'
