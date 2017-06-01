@@ -12,10 +12,12 @@ OpenDX. For a 3 CV case, it is possible to print the 4D free energy surface in
 a cube file format (for e.g., then using VMD/OpenDX to visualize). See the
 example directory for examples to plot and visualize the data.
 
-Important to note that, F(s), the free energy in collective variable space, is
+Important to note that, $F(s)$ , the free energy in collective variable space, is
 printed, where
 
-F(s) = -- SUM_t V(t,s).
+$$
+F(s) = - SUM\_t\times V(t,s).
+$$
 
-Here V is the biasing potential added at time t in the collective variable
-space s.
+Here $V$ is the biasing potential added at time $t$ in the collective variable
+space $s$.
