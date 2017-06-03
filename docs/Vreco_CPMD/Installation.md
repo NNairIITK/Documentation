@@ -33,10 +33,7 @@ These commands will work in any shell. [bash, zsh, fish etc.]
 For preparing the RC setup:
 
 ```bash
-aclocal
-autoheader
-autoconf
-automake --add-missing
+autoreconf -iv
 ```
 
 For end-user configuration and actual installation:
